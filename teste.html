@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="shortcut icon" href="img/Bob_esponja_logotipo.svg.png" type="image/x-icon">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Gravitas+One&family=Noto+Sans+Gunjala+Gondi:wght@400..700&display=swap');
+    
+    @font-face {
+    font-family: fontlegal;
+    src: url("./font/spongeboy_me_bob/Spongeboy\ Me\ Bob.ttf");
+    }
+
+
+
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    body{
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: 
+        linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.349)),
+        url('./img/bob-esponja--cenario_6103_1024x768.jpg'); 
+        background-size: cover;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 60%;
+        background-color: #c2efeb00;
+        border-radius: 2.5%;
+        gap: 20px;
+    }
+
+    label{
+        font-family: fontlegal;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff64d;
+        font-size: 45px;
+        
+    }
+
+    input{
+        width: 50%;
+        height: 3rem;
+        border-radius: 5%;
+        border: none;
+        padding: 10px;
+        font-family: fontlegal;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 20px;
+    }
+
+
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    button{
+        width: 30%;
+        height: 10%;
+        border-radius: 7%;
+        border: none;
+        font-family: fontlegal;
+        font-weight: 400;
+        font-style: normal;
+        color: #fff64d;
+        background-color: #4ebecd;
+        font-size: 24px;
+    }
+
+    img{
+        width: 35px;
+        height: 35px;
+        position: absolute;
+    }
+
+</style>
+
+
+
+<body>
+    <form action="" class="form">
+        <div class="inputs">
+            <label for="">E-mail:</label>
+            <input type="text" placeholder="Digite o email..." id="">
+
+        </div>
+
+        <div class="inputs">
+            <label for="">Senha:</label>
+            <input type="password" placeholder="Digite a senha..." name="" id="" >
+        </div>
+
+            <button>
+                Entrar
+            </button>
+    </form>
+    
+</body>
+</html>
